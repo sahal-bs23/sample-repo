@@ -1,0 +1,72 @@
+{
+  "name": "iitju-alumni-frontend",
+  "version": "1.0.0",
+  "description": "IIT Jahangirnagar University Alumni Association Frontend",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.7.4",
+    "web-vitals": "^3.5.0",
+    "@heroicons/react": "^2.0.18",
+    "@headlessui/react": "^1.7.17",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-query": "^3.39.3",
+    "date-fns": "^2.30.0",
+    "clsx": "^2.0.0",
+    "js-cookie": "^3.0.5",
+    "react-dropzone": "^14.2.3",
+    "react-image-crop": "^10.1.8",
+    "emoji-picker-react": "^4.5.16",
+    "simple-peer": "^9.11.1",
+    "react-webcam": "^7.1.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "@types/js-cookie": "^3.0.6",
+    "@types/simple-peer": "^9.11.8",
+    "eslint": "^8.55.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,md}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8080"
+}
+
